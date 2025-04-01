@@ -1,0 +1,177 @@
+#Nombre{
+    color:#4d64c2;
+    font-size: 40px;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.media{
+    margin: 30px 10px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border: 2px solid #403196;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 50px;
+    margin: 20px
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ul li{
+    margin: 5px 15px;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(95, 126, 198);
+}
+ul li:hover{
+    background-color: rgb(141, 144, 234);
+    color: rgb(37, 45, 117);
+    padding: auto 10px;
+    border-bottom: 2px solid rgb(64, 0, 121) ;
+}
+.actual{
+    color: #695cc5;
+    border-bottom: 2px solid #1a136a;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 27, 83);
+    padding:10px 50px;
+    margin: 20px
+}
+img{
+    border-radius: 50%;
+    border: 5px solid #281e7a;
+    height: 400px;
+    margin: 30px 20px;
+}
+#texto{
+    text-align: center;
+    padding: 5px 20px;
+}
+.subtitulo{
+    font-size:35px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color:rgb(0, 0, 0);
+}
+.resaltado{
+    color:#2e226f;
+}
+.parrafo{
+    font-size:19px;
+}
+img:hover{
+    border-color: rgb(124, 119, 255);
+}
+
+/*Area del Footer*/
+  
+body {
+    min-height: 100vh;
+    background-color: white;
+  }
+  
+.footer {
+    position: relative;
+    width: 100%;
+    background: #403196;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+  
+.icon-elem{
+    list-style: none;
+}
+  
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+  
+.icon:hover{
+    transform: translateY(-10px);
+}
+  
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+  
+.menu-elem{
+    list-style: none;
+}
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 3px 7px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+  
+.menu-icon:hover{
+    opacity: 1;
+    color: #403196;
+}
+  
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.media-footer{
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 0;
+    border-width: 0;
+}

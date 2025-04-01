@@ -1,0 +1,76 @@
+*{
+    font-family: Poppins, 'Times New Roman', Times, serif;
+}
+.subtitulo{
+    font-size:35px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
+    line-height: 35px;
+}
+.parrafo, ul li{
+    font-size: 25px;
+    font-weight: 500;
+}
+.contenido{
+    text-decoration: underline;
+    color:rgb(69, 66, 171);
+    font-size:35px;
+    text-align: center;
+}
+.contenedor{
+    margin:50px
+}
+.contenedor div{
+    margin: 30px;
+}
+.lista li:hover{
+    list-style:georgian;
+    color: rgb(43, 46, 66)
+
+}
+img{
+    height: 200px;
+}
+.secciones {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 20px; 
+    
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    flex-basis: 45%;
+    box-sizing: border-box;
+}
+.title{
+    font-size:35px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
+}
+.parrafo{
+    font-size:25px;
+    color:white;
+    line-height: 45px;
+}
+#carta{
+    margin: 30px 80px;
+}
+#integrantes li{
+    margin:20px;
+    list-style: circle;
+}
+#moti{
+    color:rgb(89, 91, 177)
+}
+
+
