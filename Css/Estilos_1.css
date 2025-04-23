@@ -56,15 +56,15 @@ a{
     text-decoration: none;
 }
 .contenedor{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     color: rgb(41, 27, 83);
-    padding:10px 50px;
+    padding:20px 70px;
     margin: 20px
 }
 img{
-    border-radius: 50%;
+    border-radius: 0%;
     border: 5px solid #281e7a;
     height: 400px;
     margin: 30px 20px;
